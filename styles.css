@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --Azul-escuro: #03045eff;
+    --Azul-MaisouMenosEscuro: #023e8aff;
+    --Azul: #0077b6ff;
+    --Azul-verde: #0096c7ff;
+    --Azul-cinza: #00b4d8ff;
+    --Azul-branco: #caf0f8ff;
+    
 }
 
 body {
@@ -11,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 
 
@@ -21,7 +27,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--Azul-escuro);
     font-weight: 600;
 }
 
@@ -57,7 +63,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--Azul-escuro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -69,7 +75,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--Azul-escuro);
 }
 
 
@@ -98,11 +104,11 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--Azul-escuro);
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color:var(--Azul-cinza);
 
 }
 
@@ -131,7 +137,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: var(--Azul-escuro);
     border: none;
     font-weight: bold;
 }
@@ -139,4 +145,20 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+
+.nav-img{
+    width: 30%;
+}
+
+.mb-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 18em;
+}
+
+.cabecalho{
+    color: aqua;
 }
