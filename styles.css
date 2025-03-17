@@ -84,9 +84,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background: url('img/violao.png') top right no-repeat,
+        url('img/75.png') bottom left no-repeat;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -161,4 +160,11 @@ h2 {
 
 .cabecalho{
     color: aqua;
+}
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
 }
